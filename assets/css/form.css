@@ -6,6 +6,17 @@ body {
   justify-content: center;
   height: auto;
   background-color: lightblue;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+  background-color: darkblue;
+  color: lightgray;
+}
+
+body.dark-mode .main-message h2 {
+  background-color: darkolivegreen;
+  border-color: darkcyan;
 }
 
 header {
