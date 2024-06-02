@@ -65,6 +65,7 @@ main {
   height: 150px;
   background-color: lightgreen;
   font-weight: bold;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .form-container {
