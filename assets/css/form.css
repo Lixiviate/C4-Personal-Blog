@@ -7,12 +7,22 @@ body {
   height: auto;
 }
 
+header {
+  text-align: center;
+}
+
+header,
+main {
+  width: 70%;
+  margin: 20px;
+}
+
 .content {
   display: flex;
   justify-content: space-between;
 }
 
-.login-message {
+.main-message {
   width: 30%;
 }
 
@@ -23,4 +33,10 @@ body {
 form.blog-form {
   display: flex;
   flex-direction: column;
+}
+
+.blog-form label,
+.blog-form input,
+.blog-form button {
+  margin-bottom: 20px;
 }
