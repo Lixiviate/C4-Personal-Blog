@@ -9,12 +9,19 @@ body {
 
 header {
   text-align: center;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
-header,
+header nav {
+  margin: 10px;
+}
+
 main {
-  width: 70%;
+  width: 100%;
   margin: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .content {
@@ -23,13 +30,15 @@ main {
 }
 
 .main-message {
-  width: 30%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 5px;
+  border-right: 2px solid black;
 }
 
-.main-message p {
+.main-message h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +52,9 @@ main {
 }
 
 .form-container {
-  width: 60%;
+  width: 50%;
+  margin-left: 5px;
+  border-left: 2px solid black;
 }
 
 form.blog-form {
@@ -53,6 +64,7 @@ form.blog-form {
 
 .blog-form label,
 .blog-form input,
+.blog-form textarea,
 .blog-form button {
   margin-bottom: 20px;
 }
