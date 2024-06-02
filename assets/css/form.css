@@ -73,3 +73,10 @@ form.blog-form {
 .blog-form button {
   margin-bottom: 20px;
 }
+
+.toggle-mode {
+  background: darkgreen;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 5px;
+}
