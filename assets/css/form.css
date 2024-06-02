@@ -14,8 +14,12 @@ header {
   border-bottom: 2px solid black;
 }
 
+header h1 {
+  margin: 20px;
+}
+
 header nav {
-  margin: 10px;
+  margin: 20px;
 }
 
 main {
