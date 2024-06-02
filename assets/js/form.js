@@ -6,12 +6,23 @@ document
   .querySelector(".blog-form")
   .addEventListener("submit", function (event) {
     event.preventDefault();
+
     const formData = {
       username: usernameInput.value,
       title: titleInput.value,
       content: contentInput.value,
     };
 
-    localStorage.setItem("formData", JSON.stringify(formData));
-    console.log(formData);
+    let storedData = JSON.parse(localStorage.getItem("formData"));
+    if (!storedData) {
+      storedData = [];
+    }
+
+    storedData.push(formData);
+
+    localStorage.setItem("formData", JSON.stringify(storedData));
+
+    alert("You've Successfully Submitted Your Blog Post!");
+
+    window.location.href = "blog.html";
   });
