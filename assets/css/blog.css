@@ -1,0 +1,47 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: lightblue;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+  background-color: darkblue;
+  color: lightgray;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+header nav {
+  margin: 20px;
+}
+
+main {
+  width: 100%;
+  margin: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.blog-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.toggle-mode {
+  background: darkgreen;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 5px;
+}
