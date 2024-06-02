@@ -19,9 +19,15 @@
 
 ## Deployed Page
 
-[Deployed GitHub Page](https://lixiviate.github.io/C3-Employee-Payroll-Tracker/)
+[Deployed GitHub Page]()
 
-![Example Screenshot](./assets/images/example.png)
+![Example Main Page Light Mode](./assets/images/example1.png)
+
+![Example Main Page Dark Mode](./assets/images/example2.png)
+
+![Example Blog Page Light Mode](./assets/images/example3.png)
+
+![Example Main Page Dark Mode](./assets/images/example4.png)
 
 ## Source Code
 
