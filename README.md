@@ -30,7 +30,7 @@ This is a simple personal blog project that allows users to submit blog posts an
 
 ## Deployed Page
 
-[Deployed GitHub Page]()
+[Deployed GitHub Page](https://lixiviate.github.io/C4-Personal-Blog/)
 
 ![Example Main Page Light Mode](./assets/images/example1.png)
 
@@ -43,4 +43,7 @@ This is a simple personal blog project that allows users to submit blog posts an
 ## Source Code
 
 - Created by [Lixiviate](https://github.com/Lixiviate)
-- Assistance from [edX Xpert Learning Assistant](https://www.edx.org/)
+- Code assistance from:
+  - [edX Xpert Learning Assistant](https://www.edx.org/)
+  - [MDN Web Docs](https://developer.mozilla.org/en-US/)
+  - [W3 Schools](https://www.w3schools.com/)
