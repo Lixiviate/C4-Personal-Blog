@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Your Personal Blog <button class="toggle-mode">☀️</button></h1>
+      <nav>
+        <a href="blog.html">View Blog Posts</a>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <section class="main-message">
+          <h2>Let's Blog About It!</h2>
+        </section>
+        <section class="form-container">
+          <h2>Share What's On Your Mind!</h2>
+          <form class="blog-form">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              class="input-username"
+              name="username"
+              required
+            />
+            <label for="title">Blog Title:</label>
+            <input type="text" class="input-title" name="title" required />
+            <label for="content">Content:</label>
+            <textarea class="input-content" name="content" required></textarea>
+            <button type="submit" class="form-submit">Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Made by
+        <a href="https://github.com/Lixiviate" target="_blank">Lixiviate</a>
+      </p>
+    </footer>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </body>
+</html>

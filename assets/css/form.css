@@ -1,0 +1,61 @@
+body.dark-mode .main-message h2 {
+  background-color: darkolivegreen;
+  border-color: darkcyan;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-message {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-right: 2px solid black;
+}
+
+.main-message h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.form-container {
+  width: 50%;
+  margin-left: 5px;
+  border-left: 2px solid black;
+}
+
+form.blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-form label,
+.blog-form input,
+.blog-form textarea,
+.blog-form button {
+  margin-bottom: 20px;
+}
+
+.toggle-mode {
+  background: darkgreen;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 5px;
+}
