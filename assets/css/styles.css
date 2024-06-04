@@ -1,3 +1,4 @@
+/* Global styles for body, header, and main content */
 body {
   font-family: "Times New Roman", Times, serif;
   display: flex;
@@ -9,6 +10,7 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
+/* Dark mode style */
 body.dark-mode {
   background-color: darkblue;
   color: lightgray;

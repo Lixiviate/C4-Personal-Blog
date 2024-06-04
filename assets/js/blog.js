@@ -3,8 +3,9 @@ let storedData = JSON.parse(localStorage.getItem("formData"));
 if (!storedData) {
   storedData = [];
 }
-
+// Retrieve stored blog posts from localStorage
 document.addEventListener("DOMContentLoaded", function () {
+  // Loop through each stored blog post and display it in the browser
   for (let i = 0; i < storedData.length; i++) {
     const post = storedData[i];
     const postDiv = document.createElement("div");

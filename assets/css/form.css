@@ -1,3 +1,4 @@
+/* Styles for form layout and dark mode compatibility */
 body.dark-mode .main-message h2 {
   background-color: darkolivegreen;
   border-color: darkcyan;
